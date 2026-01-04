@@ -5,7 +5,7 @@
 ## 📌 Project Overview
 This project investigates the viability of using the **Quantum Approximate Optimization Algorithm (QAOA)** to detect inconsistencies (anomalies) in distributed sensor networks. 
 
-Using real-world environmental data from the **Intel Berkeley Research Lab dataset**, the problem is mapped to a graph partition Hamiltonian. The circuit is executed on the **IBM Quantum `ibm_marrakesh`** backend (127-qubit Eagle processor) to benchmark the performance of current NISQ hardware against classical ideal simulations.
+Using real-world environmental data from the **Intel Berkeley Research Lab dataset**, the problem is mapped to a graph partition Hamiltonian. The circuit is executed on the **IBM Quantum `ibm_marrakesh`** backend to benchmark the performance of current NISQ hardware against classical ideal simulations.
 
 ## 🚀 Key Features
 * **Real-World Data:** Utilizes temperature logs from the Intel Berkeley sensor grid rather than random synthetic data.
