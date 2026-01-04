@@ -19,7 +19,7 @@ Using real-world environmental data from the **Intel Berkeley Research Lab datas
 ## 📊 Results
 *Detailed plots comparing the probability distributions of the sensor states.*
 
-| Classical Ideal vs. Simulator | Hardware Execution (IBM Fez) |
+| Classical Ideal vs. Simulator | Hardware Execution (IBM Marrakesh) |
 | :---: | :---: |
 | ![Sim Plot](Simulator.png) | ![Hardware Plot](Hardware.png) |
 | *The simulator perfectly recovers the ground state representing the anomaly.* | *Hardware results showing noise effects despite error mitigation.* |
