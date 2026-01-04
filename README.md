@@ -8,13 +8,13 @@ This project investigates the viability of using the **Quantum Approximate Optim
 Using real-world environmental data from the **Intel Berkeley Research Lab dataset**, the problem is mapped to a graph partition Hamiltonian. The circuit is executed on the **IBM Quantum `ibm_marrakesh`** backend to benchmark the performance of current NISQ hardware against classical ideal simulations.
 
 ## 🚀 Key Features
-* **Real-World Data:** Utilizes temperature logs from the Intel Berkeley sensor grid rather than random synthetic data.
-* **Modern Qiskit Stack:** Implemented using **Qiskit Runtime V2 Primitives (`SamplerV2`)**.
+* **Data:** Utilizes temperature logs from the Intel Berkeley sensor grid.
+* **Qiskit Stack:** Implemented using **Qiskit Runtime V2 Primitives (`SamplerV2`)**.
 * **Error Mitigation:** Applies **Measurement Twirling** to convert coherent readout errors into stochastic noise, improving the signal-to-noise ratio.
 * **Benchmarking:** Comparative analysis between:
-    * Ideal Classical Theory (Boltzmann Distribution)
-    * Noiseless Simulation (AerSimulator)
-    * Raw vs. Twirled Hardware Execution
+    * Ideal Classical Theory
+    * Noiseless Simulation
+    * Hardware Execution
 
 ## 📊 Results
 *Detailed plots comparing the probability distributions of the sensor states.*
