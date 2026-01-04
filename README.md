@@ -21,7 +21,7 @@ Using real-world environmental data from the **Intel Berkeley Research Lab datas
 
 | Classical Ideal vs. Simulator | Hardware Execution (IBM Fez) |
 | :---: | :---: |
-| ![Sim Plot](results/sim_comparison.png) | ![Hardware Plot](results/hardware_plot.png) |
+| ![Sim Plot](Simulator.png) | ![Hardware Plot](Hardware.png) |
 | *The simulator perfectly recovers the ground state representing the anomaly.* | *Hardware results showing noise effects despite error mitigation.* |
 
 ## 🛠️ Methodology
