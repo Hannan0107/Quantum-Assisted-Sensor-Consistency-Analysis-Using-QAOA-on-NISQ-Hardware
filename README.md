@@ -46,3 +46,16 @@ This project requires access to IBM Quantum Hardware.
 **Do not hardcode your API token.** Export it as an environment variable:
 ```bash
 export QISKIT_IBM_TOKEN="your_token_here"
+```
+
+## 🛠️ Installation
+
+Clone the repository and install the required quantum computing libraries:
+
+```bash
+qiskit>=1.0.0
+qiskit-ibm-runtime
+qiskit-algorithms
+pyscf
+matplotlib
+numpy
